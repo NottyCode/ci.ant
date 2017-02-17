@@ -17,6 +17,8 @@ Parameters supported by this task in addition to the [common parameters](common-
 | features | A comma separated list of Liberty features that are required to compile the JSPs | No
 | classpath | The classpath required to compile the JSPs | No
 | classpathref | A ref to a path for compiling the JSPs | No
+| tmpdir | The path where a temporary Liberty server directory is created. Default is system tmp directory. | No
+| cleanup | Whether the temporary Liberty server directory should be deleted afterwards. Default: `true` | No
 
 
 #### Examples
